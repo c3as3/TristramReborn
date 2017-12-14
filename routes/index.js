@@ -10,7 +10,6 @@ var ctrlHomepage = require('../MVC/controllers/homepage.js');
 var ctrltwitchUsers = require('../MVC/controllers/twitchusers.js')
 var ctrlTwitchpage = require('../MVC/controllers/twitch.js')
 
-//testing
 //ReCaptcha MiddleWare
 recaptcha.init('6LdQHTEUAAAAAEck5dN_0xuNI97DTZw9YKhPYrx2', '6LdQHTEUAAAAAJBSZRxCsHavkmIcFkn8PuXadE0c');
 verify = function (req, res, next){
