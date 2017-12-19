@@ -11,6 +11,8 @@ section.twitch{
     grid-column: 1 / 7;
     margin: 20px 0;
     text-decoration: underline;
+    color: orange;
+    font-size: 2em;
 
     @media screen and (max-width: 620px){
       grid-column: 1 / 3;
@@ -112,6 +114,18 @@ section.twitch{
       }
       .mrbubbles{
         background-image: url('../img/mrbubbles_profile.png');
+      }
+      .leakycougar{
+        background-image: url('../img/leakycougar_profile.jpeg')
+      }
+      .granfatha{
+        background-image: url('../img/granfatha_profile.jpg')
+      }
+      .dhono125{
+        background-image: url('../img/dhono125_profile.jpeg');
+      }
+      .hytyme{
+        background-image: url('../img/hytyme_profile.png');
       }
 
       .twitch,

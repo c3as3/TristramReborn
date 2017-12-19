@@ -25,7 +25,7 @@ section.about{
     background-position: center;
     background-repeat: no-repeat;
 
-    @media screen and (max-width: 620px){
+    @media screen and (max-width: 860px){
       grid-column: 1;
     }
   }
@@ -42,12 +42,12 @@ section.about{
     grid-column: 3 / 7;
     margin: 20px;
 
-    @media screen and (max-width: 620px){
+    @media screen and (max-width:860px){
       grid-column: 1;
     }
   }
 
-  @media screen and (max-width: 620px){
+  @media screen and (max-width: 860px){
     grid-template-columns: 1fr;
 
   }
