@@ -42,7 +42,7 @@ header{
     }
 
     .logo{
-      background-image: url('../img/logo.png');
+      background-image: url('../img/logo/logo.png');
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -56,7 +56,7 @@ header{
   .mobile-nav{
     display: none;
     .logo{
-      background-image: url('../img/logo.png');
+      background-image: url('../img/logo/logo.png');
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -131,9 +131,6 @@ header{
         li:nth-child(1){
           margin-top: 0;
         }
-        li:nth-child(5){
-          display: none;
-        }
       }
     }
   }
@@ -152,32 +149,81 @@ section.siteCall{
   .totalViewers{
     color: $diabloRed;
   }
+}
 
-  // .currentStreamersIcon{
-  //   position: absolute;
-  //   right: 0;
-  //   width: 50px;
-  //   height: 50px;
-  //   // border-top: 50px solid transparent;
-  //   // border-bottom: 50px solid transparent;
-  //   // border-right: 50px solid $diabloRed;
-  //   background-image: url('../img/twitch.png');
-  //   background-size: contain;
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  //   transition: all 1s ease-in-out;
-  //
-  //   .currentStreamersSidebar{
-  //     position: absolute;
-  //     right: -250px;
-  //     height: 500px;
-  //     width: 250px;
-  //     background-color: pink;
-  //   }
-  // }
-  // .currentStreamersIcon.slideIn{
-  //   right: 250px;
-  // }
+.currentStreamersIcon{
+  position: fixed;
+  right: 35px;
+  bottom: 0;
+  width: 35px;
+  height: 35px;
+  background-image: url('../img/social_media/twitch.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 500ms ease-in-out;
+
+  .currentStreamersSidebar{
+    position: absolute;
+    right: 0;
+    top: 35px;
+    height: 500px;
+    width: 300px;
+    background-color: $backgroundBlack;
+    text-align: center;
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+    overflow-y: scroll;
+
+    h4.online{
+      color: green;;
+      font-size: 1.5em;
+    }
+    h4.offline{
+      color: $diabloRed;
+      font-size: 1.5em
+    }
+    h6{
+      color: orange;
+      font-size: 1em;
+      text-decoration: underline;
+      margin: 10px 0;
+    }
+    .profilePic{
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 200px;
+      margin: 10px auto;
+    }
+    .alarashade{
+      background-image: url('../img/twitch/alarashade_profile.jpeg');
+    }
+    .btneandertha1{
+      background-image: url('../img/twitch/btneander_profile.png');
+    }
+    .diglio{
+      background-image: url('../img/twitch/diglio_profile.png');
+    }
+    .hytyme{
+      background-image: url('../img/twitch/hytyme_profile.png');
+    }
+    .leakycougar{
+      background-image: url('../img/twitch/leakycougar_profile.jpeg')
+    }
+    .mrllama{
+      background-image: url('../img/twitch/mrllama_profile.png');
+    }
+  }
+}
+
+.currentStreamersIcon.slideIn{
+  bottom: 500px;
+}
+
+.currentStreamersSidebar.sideBarOpacity{
+  opacity: 1;
 }
 
 footer{
@@ -189,6 +235,10 @@ footer{
   h4, p{
     margin: 15px 0;
   }
+}
+
+hr{
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 700px){

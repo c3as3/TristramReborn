@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
   background-color: #1E1D1C;
   font-family: "Rubik", sans-serif;
-  background-image: url(../img/splash-bg.png);
+  background-image: url(../img/splash/splash-bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -297,7 +297,7 @@ header {
       header .desktop-nav ul li:hover a {
         text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e; }
   header .desktop-nav .logo {
-    background-image: url("../img/logo.png");
+    background-image: url("../img/logo/logo.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -308,7 +308,7 @@ header {
   header .mobile-nav {
     display: none; }
     header .mobile-nav .logo {
-      background-image: url("../img/logo.png");
+      background-image: url("../img/logo/logo.png");
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -368,8 +368,6 @@ header {
               color: #FF0000; }
         header .mobile-nav .mobile-nav-menu ul li:nth-child(1) {
           margin-top: 0; }
-        header .mobile-nav .mobile-nav-menu ul li:nth-child(5) {
-          display: none; }
 
 section.siteCall {
   text-align: center;
@@ -381,6 +379,65 @@ section.siteCall {
   section.siteCall .totalViewers {
     color: #FF0000; }
 
+.currentStreamersIcon {
+  position: fixed;
+  right: 35px;
+  bottom: 0;
+  width: 35px;
+  height: 35px;
+  background-image: url("../img/social_media/twitch.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 500ms ease-in-out; }
+  .currentStreamersIcon .currentStreamersSidebar {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    height: 500px;
+    width: 300px;
+    background-color: #1E1D1C;
+    text-align: center;
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+    overflow-y: scroll; }
+    .currentStreamersIcon .currentStreamersSidebar h4.online {
+      color: green;
+      font-size: 1.5em; }
+    .currentStreamersIcon .currentStreamersSidebar h4.offline {
+      color: #FF0000;
+      font-size: 1.5em; }
+    .currentStreamersIcon .currentStreamersSidebar h6 {
+      color: orange;
+      font-size: 1em;
+      text-decoration: underline;
+      margin: 10px 0; }
+    .currentStreamersIcon .currentStreamersSidebar .profilePic {
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 200px;
+      margin: 10px auto; }
+    .currentStreamersIcon .currentStreamersSidebar .alarashade {
+      background-image: url("../img/twitch/alarashade_profile.jpeg"); }
+    .currentStreamersIcon .currentStreamersSidebar .btneandertha1 {
+      background-image: url("../img/twitch/btneander_profile.png"); }
+    .currentStreamersIcon .currentStreamersSidebar .diglio {
+      background-image: url("../img/twitch/diglio_profile.png"); }
+    .currentStreamersIcon .currentStreamersSidebar .hytyme {
+      background-image: url("../img/twitch/hytyme_profile.png"); }
+    .currentStreamersIcon .currentStreamersSidebar .leakycougar {
+      background-image: url("../img/twitch/leakycougar_profile.jpeg"); }
+    .currentStreamersIcon .currentStreamersSidebar .mrllama {
+      background-image: url("../img/twitch/mrllama_profile.png"); }
+
+.currentStreamersIcon.slideIn {
+  bottom: 500px; }
+
+.currentStreamersSidebar.sideBarOpacity {
+  opacity: 1; }
+
 footer {
   margin-top: 20px;
   text-align: center;
@@ -388,6 +445,9 @@ footer {
   width: 98vw; }
   footer h4, footer p {
     margin: 15px 0; }
+
+hr {
+  opacity: 0.5; }
 
 @media screen and (max-width: 700px) {
   header {
@@ -494,9 +554,9 @@ section.about {
       section.about .pic {
         grid-column: 1; } }
   section.about .cesar {
-    background-image: url("../img/cesar.jpeg"); }
+    background-image: url("../img/about/cesar.jpeg"); }
   section.about .mike {
-    background-image: url("../img/mike.jpeg"); }
+    background-image: url("../img/about/mike.jpeg"); }
   section.about .bio {
     grid-column: 3 / 7;
     margin: 20px; }
@@ -583,29 +643,29 @@ section.twitch {
             width: 100%;
             height: 100%; }
       section.twitch .streamSectionContainer .streamerCard .lumenbr {
-        background-image: url("../img/lumen_profile.png"); }
+        background-image: url("../img/twitch/lumen_profile.png"); }
       section.twitch .streamSectionContainer .streamerCard .btneandertha1 {
-        background-image: url("../img/btneander_profile.png"); }
+        background-image: url("../img/twitch/btneander_profile.png"); }
       section.twitch .streamSectionContainer .streamerCard .diglio {
-        background-image: url("../img/diglio_profile.png"); }
+        background-image: url("../img/twitch/diglio_profile.png"); }
       section.twitch .streamSectionContainer .streamerCard .alarashade {
-        background-image: url("../img/alarashade_profile.jpeg"); }
+        background-image: url("../img/twitch/alarashade_profile.jpeg"); }
       section.twitch .streamSectionContainer .streamerCard .mrllama {
-        background-image: url("../img/mrllama_profile.png"); }
+        background-image: url("../img/twitch/mrllama_profile.png"); }
       section.twitch .streamSectionContainer .streamerCard .flufflo {
-        background-image: url("../img/flufflo_profile.png"); }
+        background-image: url("../img/twitch/flufflo_profile.png"); }
       section.twitch .streamSectionContainer .streamerCard .djwaters {
-        background-image: url("../img/djwaters_profile.png"); }
+        background-image: url("../img/twitch/djwaters_profile.png"); }
       section.twitch .streamSectionContainer .streamerCard .mrbubbles {
-        background-image: url("../img/mrbubbles_profile.png"); }
+        background-image: url("../img/twitch/mrbubbles_profile.png"); }
       section.twitch .streamSectionContainer .streamerCard .leakycougar {
-        background-image: url("../img/leakycougar_profile.jpeg"); }
+        background-image: url("../img/twitch/leakycougar_profile.jpeg"); }
       section.twitch .streamSectionContainer .streamerCard .granfatha {
-        background-image: url("../img/granfatha_profile.jpg"); }
+        background-image: url("../img/twitch/granfatha_profile.jpg"); }
       section.twitch .streamSectionContainer .streamerCard .dhono125 {
-        background-image: url("../img/dhono125_profile.jpeg"); }
+        background-image: url("../img/twitch/dhono125_profile.jpeg"); }
       section.twitch .streamSectionContainer .streamerCard .hytyme {
-        background-image: url("../img/hytyme_profile.png"); }
+        background-image: url("../img/twitch/hytyme_profile.png"); }
       section.twitch .streamSectionContainer .streamerCard .twitch,
       section.twitch .streamSectionContainer .streamerCard .twitter,
       section.twitch .streamSectionContainer .streamerCard .youtube,
@@ -617,15 +677,15 @@ section.twitch {
         background-size: contain;
         background-repeat: no-repeat; }
       section.twitch .streamSectionContainer .streamerCard .twitch {
-        background-image: url("../img/twitch.png"); }
+        background-image: url("../img/social_media/twitch.png"); }
       section.twitch .streamSectionContainer .streamerCard .twitter {
-        background-image: url("../img/twitter.png"); }
+        background-image: url("../img/social_media/twitter.png"); }
       section.twitch .streamSectionContainer .streamerCard .discord {
-        background-image: url("../img/discord.png"); }
+        background-image: url("../img/social_media/discord.png"); }
       section.twitch .streamSectionContainer .streamerCard .instagram {
-        background-image: url("../img/instagram.png"); }
+        background-image: url("../img/social_media/instagram.png"); }
       section.twitch .streamSectionContainer .streamerCard .youtube {
-        background-image: url("../img/youtube.png"); }
+        background-image: url("../img/social_media/youtube.png"); }
 
 section.classes {
   grid-column: 2 / 12;
@@ -679,19 +739,19 @@ section.classes {
         section.classes .classGroup .classInfo {
           grid-column: 1; } }
     section.classes .classGroup .amazon {
-      background-image: url("../img/Amazon.gif"); }
+      background-image: url("../img/classes/Amazon.gif"); }
     section.classes .classGroup .assassin {
-      background-image: url("../img/Assassin.gif"); }
+      background-image: url("../img/classes/Assassin.gif"); }
     section.classes .classGroup .barbarian {
-      background-image: url("../img/Barbarian.gif"); }
+      background-image: url("../img/classes/Barbarian.gif"); }
     section.classes .classGroup .druid {
-      background-image: url("../img/Druid.gif"); }
+      background-image: url("../img/classes/Druid.gif"); }
     section.classes .classGroup .necromancer {
-      background-image: url("../img/Necromancer.gif"); }
+      background-image: url("../img/classes/Necromancer.gif"); }
     section.classes .classGroup .paladin {
-      background-image: url("../img/Paladin.gif"); }
+      background-image: url("../img/classes/Paladin.gif"); }
     section.classes .classGroup .sorceress {
-      background-image: url("../img/Sorceress.gif"); }
+      background-image: url("../img/classes/Sorceress.gif"); }
     @media screen and (max-width: 620px) {
       section.classes .classGroup {
         grid-template-columns: 1fr;
@@ -726,47 +786,47 @@ section.classes {
         section.classes .classGroup .tree3 {
           grid-column: 1; } }
     section.classes .classGroup .amazonSkills1 {
-      background-image: url("../img/amazonSkills1.jpg"); }
+      background-image: url("../img/skills/amazonSkills1.jpg"); }
     section.classes .classGroup .amazonSkills2 {
-      background-image: url("../img/amazonSkills2.jpg"); }
+      background-image: url("../img/skills/amazonSkills2.jpg"); }
     section.classes .classGroup .amazonSkills3 {
-      background-image: url("../img/amazonSkills3.jpg"); }
+      background-image: url("../img/skills/amazonSkills3.jpg"); }
     section.classes .classGroup .assassinSkills1 {
-      background-image: url("../img/assassinSkills1.jpg"); }
+      background-image: url("../img/skills/assassinSkills1.jpg"); }
     section.classes .classGroup .assassinSkills2 {
-      background-image: url("../img/assassinSkills2.jpg"); }
+      background-image: url("../img/skills/assassinSkills2.jpg"); }
     section.classes .classGroup .assassinSkills3 {
-      background-image: url("../img/assassinSkills3.jpg"); }
+      background-image: url("../img/skills/assassinSkills3.jpg"); }
     section.classes .classGroup .barbarianSkills1 {
-      background-image: url("../img/barbarianSkills1.jpg"); }
+      background-image: url("../img/skills/barbarianSkills1.jpg"); }
     section.classes .classGroup .barbarianSkills2 {
-      background-image: url("../img/barbarianSkills2.jpg"); }
+      background-image: url("../img/skills/barbarianSkills2.jpg"); }
     section.classes .classGroup .barbarianSkills3 {
-      background-image: url("../img/barbarianSkills3.jpg"); }
+      background-image: url("../img/skills/barbarianSkills3.jpg"); }
     section.classes .classGroup .druidSkills1 {
-      background-image: url("../img/druidSkills1.jpg"); }
+      background-image: url("../img/skills/druidSkills1.jpg"); }
     section.classes .classGroup .druidSkills2 {
-      background-image: url("../img/druidSkills2.jpg"); }
+      background-image: url("../img/skills/druidSkills2.jpg"); }
     section.classes .classGroup .druidSkills3 {
-      background-image: url("../img/druidSkills3.jpg"); }
+      background-image: url("../img/skills/druidSkills3.jpg"); }
     section.classes .classGroup .necromancerSkills1 {
-      background-image: url("../img/necromancerSkills1.jpg"); }
+      background-image: url("../img/skills/necromancerSkills1.jpg"); }
     section.classes .classGroup .necromancerSkills2 {
-      background-image: url("../img/necromancerSkills2.jpg"); }
+      background-image: url("../img/skills/necromancerSkills2.jpg"); }
     section.classes .classGroup .necromancerSkills3 {
-      background-image: url("../img/necromancerSkills3.jpg"); }
+      background-image: url("../img/skills/necromancerSkills3.jpg"); }
     section.classes .classGroup .paladinSkills1 {
-      background-image: url("../img/paladinSkills1.jpg"); }
+      background-image: url("../img/skills/paladinSkills1.jpg"); }
     section.classes .classGroup .paladinSkills2 {
-      background-image: url("../img/paladinSkills2.jpg"); }
+      background-image: url("../img/skills/paladinSkills2.jpg"); }
     section.classes .classGroup .paladinSkills3 {
-      background-image: url("../img/paladinSkills3.jpg"); }
+      background-image: url("../img/skills/paladinSkills3.jpg"); }
     section.classes .classGroup .sorceressSkills1 {
-      background-image: url("../img/sorceressSkills1.jpg"); }
+      background-image: url("../img/skills/sorceressSkills1.jpg"); }
     section.classes .classGroup .sorceressSkills2 {
-      background-image: url("../img/sorceressSkills2.jpg"); }
+      background-image: url("../img/skills/sorceressSkills2.jpg"); }
     section.classes .classGroup .sorceressSkills3 {
-      background-image: url("../img/sorceressSkills3.jpg"); }
+      background-image: url("../img/skills/sorceressSkills3.jpg"); }
 
 section.leaderboards {
   grid-column: 2 / 12;
@@ -779,6 +839,29 @@ section.guides {
   text-align: center; }
   section.guides h2, section.guides p {
     margin: 20px 0; }
+  section.guides .guidesMenu {
+    margin: 10px 0; }
+    section.guides .guidesMenu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center; }
+      section.guides .guidesMenu ul li {
+        cursor: pointer;
+        margin: 10px 0; }
+        section.guides .guidesMenu ul li a {
+          text-decoration: none;
+          color: white;
+          font-size: 22px; }
+        section.guides .guidesMenu ul li:hover a {
+          color: #FF0000; }
+      @media screen and (max-width: 620px) {
+        section.guides .guidesMenu ul {
+          flex-direction: column; } }
   section.guides .fhr {
     border-top: 2px solid #FF0000; }
   section.guides .reference {

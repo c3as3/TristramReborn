@@ -171,6 +171,24 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/MVC\/views\/breakpoints.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/MVC\/views\/breakpoints.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/MVC\/views\/classbuilds.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/MVC\/views\/classbuilds.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/MVC\/views\/classes.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -225,6 +243,33 @@
 		"oF": 2,
 		"oS": 0
 		},
+	"\/MVC\/views\/leveling.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/MVC\/views\/leveling.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/MVC\/views\/magicfind.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/MVC\/views\/magicfind.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/MVC\/views\/mapguides.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/MVC\/views\/mapguides.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/MVC\/views\/messages.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -241,6 +286,15 @@
 		"oA": 0,
 		"oAP": "\/public\/html\/news.html",
 		"oF": 2,
+		"oS": 0
+		},
+	"\/MVC\/views\/speedrunning.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/MVC\/views\/speedrunning.html",
+		"oF": 0,
 		"oS": 0
 		},
 	"\/MVC\/views\/splash.jade": {
@@ -410,558 +464,522 @@
 		"oAP": "\/public\/html\/twitch.html",
 		"oF": 0
 		},
-	"\/public\/img\/alarashade_profile.jpeg": {
-		"ft": 16384,
-		"iS": 32969,
-		"oA": 0,
-		"oAP": "\/public\/img\/alarashade_profile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/Amazon-Skills.jpg": {
-		"ft": 16384,
-		"iS": 35842,
-		"oA": 0,
-		"oAP": "\/public\/img\/Amazon-Skills.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/Amazon.gif": {
-		"ft": 4194304,
-		"iS": 142432,
-		"oA": 0,
-		"oAP": "\/public\/img\/Amazon.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/public\/img\/amazonSkills1.jpg": {
-		"ft": 16384,
-		"iS": 35748,
-		"oA": 0,
-		"oAP": "\/public\/img\/amazonSkills1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/amazonSkills2.jpg": {
-		"ft": 16384,
-		"iS": 36120,
-		"oA": 0,
-		"oAP": "\/public\/img\/amazonSkills2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/amazonSkills3.jpg": {
-		"ft": 16384,
-		"iS": 35842,
-		"oA": 0,
-		"oAP": "\/public\/img\/amazonSkills3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/Assassin.gif": {
-		"ft": 4194304,
-		"iS": 174693,
-		"oA": 0,
-		"oAP": "\/public\/img\/Assassin.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/public\/img\/assassinSkills1.jpg": {
-		"ft": 16384,
-		"iS": 32206,
-		"oA": 0,
-		"oAP": "\/public\/img\/assassinSkills1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/assassinSkills2.jpg": {
-		"ft": 16384,
-		"iS": 32338,
-		"oA": 0,
-		"oAP": "\/public\/img\/assassinSkills2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/assassinSkills3.jpg": {
-		"ft": 16384,
-		"iS": 32303,
-		"oA": 0,
-		"oAP": "\/public\/img\/assassinSkills3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/baal.gif": {
-		"ft": 4194304,
-		"iS": 75915,
-		"oA": 0,
-		"oAP": "\/public\/img\/baal.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/public\/img\/Barbarian.gif": {
-		"ft": 4194304,
-		"iS": 194783,
-		"oA": 0,
-		"oAP": "\/public\/img\/Barbarian.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/public\/img\/barbarianSkills1.jpg": {
-		"ft": 16384,
-		"iS": 31982,
-		"oA": 0,
-		"oAP": "\/public\/img\/barbarianSkills1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/barbarianSkills2.jpg": {
-		"ft": 16384,
-		"iS": 31701,
-		"oA": 0,
-		"oAP": "\/public\/img\/barbarianSkills2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/barbarianSkills3.jpg": {
-		"ft": 16384,
-		"iS": 32179,
-		"oA": 0,
-		"oAP": "\/public\/img\/barbarianSkills3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/btneander_profile.png": {
-		"ft": 32768,
-		"iS": 11145,
-		"oA": 0,
-		"oAP": "\/public\/img\/btneander_profile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/public\/img\/cesar.jpeg": {
+	"\/public\/img\/about\/cesar.jpeg": {
 		"ft": 16384,
 		"iS": 150726,
 		"oA": 0,
-		"oAP": "\/public\/img\/cesar.jpg",
+		"oAP": "\/public\/img\/about\/cesar.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/public\/img\/cesar.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/cesar.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/dhono125_profile.jpeg": {
-		"ft": 16384,
-		"iS": 14432,
-		"oA": 0,
-		"oAP": "\/public\/img\/dhono125_profile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/Diablo.gif": {
-		"ft": 4194304,
-		"iS": 81799,
-		"oA": 0,
-		"oAP": "\/public\/img\/Diablo.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/public\/img\/diglio_profile.png": {
-		"ft": 32768,
-		"iS": 21984,
-		"oA": 0,
-		"oAP": "\/public\/img\/diglio_profile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/public\/img\/discord.png": {
-		"ft": 32768,
-		"iS": 8024,
-		"oA": 0,
-		"oAP": "\/public\/img\/discord.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/public\/img\/djwaters_profile.png": {
-		"ft": 32768,
-		"iS": 80467,
-		"oA": 0,
-		"oAP": "\/public\/img\/djwaters_profile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/public\/img\/Druid.gif": {
-		"ft": 4194304,
-		"iS": 213154,
-		"oA": 0,
-		"oAP": "\/public\/img\/Druid.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/public\/img\/druidSkills1.jpg": {
-		"ft": 16384,
-		"iS": 77234,
-		"oA": 0,
-		"oAP": "\/public\/img\/druidSkills1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/druidSkills2.jpg": {
-		"ft": 16384,
-		"iS": 80276,
-		"oA": 0,
-		"oAP": "\/public\/img\/druidSkills2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/druidSkills3.jpg": {
-		"ft": 16384,
-		"iS": 32669,
-		"oA": 0,
-		"oAP": "\/public\/img\/druidSkills3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/flufflo_profile.png": {
-		"ft": 32768,
-		"iS": 94012,
-		"oA": 0,
-		"oAP": "\/public\/img\/flufflo_profile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/public\/img\/granfatha_profile.jpg": {
-		"ft": 16384,
-		"iS": 56060,
-		"oA": 0,
-		"oAP": "\/public\/img\/granfatha_profile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/hytyme_profile.png": {
-		"ft": 32768,
-		"iS": 137251,
-		"oA": 0,
-		"oAP": "\/public\/img\/hytyme_profile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/public\/img\/instagram.png": {
-		"ft": 32768,
-		"iS": 1518052,
-		"oA": 0,
-		"oAP": "\/public\/img\/instagram.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/public\/img\/ladder.jpg": {
-		"ft": 16384,
-		"iS": 43805,
-		"oA": 0,
-		"oAP": "\/public\/img\/ladder.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/leakycougar_profile.jpeg": {
-		"ft": 16384,
-		"iS": 36833,
-		"oA": 0,
-		"oAP": "\/public\/img\/leakycougar_profile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/logo.png": {
-		"ft": 32768,
-		"iS": 10700,
-		"oA": 0,
-		"oAP": "\/public\/img\/logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/public\/img\/lumen_profile.png": {
-		"ft": 32768,
-		"iS": 38852,
-		"oA": 0,
-		"oAP": "\/public\/img\/lumen_profile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/public\/img\/mike.jpeg": {
+	"\/public\/img\/about\/mike.jpeg": {
 		"ft": 16384,
 		"iS": 268755,
 		"oA": 0,
-		"oAP": "\/public\/img\/mike.jpg",
+		"oAP": "\/public\/img\/about\/mike.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/public\/img\/mrbubbles_profile.png": {
-		"ft": 32768,
-		"iS": 150689,
+	"\/public\/img\/classes\/Amazon.gif": {
+		"ft": 4194304,
+		"iS": 142432,
 		"oA": 0,
-		"oAP": "\/public\/img\/mrbubbles_profile.png",
+		"oAP": "\/public\/img\/classes\/Amazon.gif",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"opt": 0
 		},
-	"\/public\/img\/mrllama_profile.png": {
-		"ft": 32768,
-		"iS": 161885,
+	"\/public\/img\/classes\/Assassin.gif": {
+		"ft": 4194304,
+		"iS": 174693,
 		"oA": 0,
-		"oAP": "\/public\/img\/mrllama_profile.png",
+		"oAP": "\/public\/img\/classes\/Assassin.gif",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"opt": 0
 		},
-	"\/public\/img\/Necromancer.gif": {
+	"\/public\/img\/classes\/Barbarian.gif": {
+		"ft": 4194304,
+		"iS": 194783,
+		"oA": 0,
+		"oAP": "\/public\/img\/classes\/Barbarian.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/img\/classes\/Druid.gif": {
+		"ft": 4194304,
+		"iS": 213154,
+		"oA": 0,
+		"oAP": "\/public\/img\/classes\/Druid.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/img\/classes\/Necromancer.gif": {
 		"ft": 4194304,
 		"iS": 100963,
 		"oA": 0,
-		"oAP": "\/public\/img\/Necromancer.gif",
+		"oAP": "\/public\/img\/classes\/Necromancer.gif",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/public\/img\/necromancerSkills1.jpg": {
-		"ft": 16384,
-		"iS": 187659,
-		"oA": 0,
-		"oAP": "\/public\/img\/necromancerSkills1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/necromancerSkills2.jpg": {
-		"ft": 16384,
-		"iS": 187927,
-		"oA": 0,
-		"oAP": "\/public\/img\/necromancerSkills2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/necromancerSkills3.jpg": {
-		"ft": 16384,
-		"iS": 181952,
-		"oA": 0,
-		"oAP": "\/public\/img\/necromancerSkills3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/Paladin.gif": {
+	"\/public\/img\/classes\/Paladin.gif": {
 		"ft": 4194304,
 		"iS": 78168,
 		"oA": 0,
-		"oAP": "\/public\/img\/Paladin.gif",
+		"oAP": "\/public\/img\/classes\/Paladin.gif",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/public\/img\/paladinSkills1.jpg": {
-		"ft": 16384,
-		"iS": 32418,
+	"\/public\/img\/classes\/Sorceress.gif": {
+		"ft": 4194304,
+		"iS": 89808,
 		"oA": 0,
-		"oAP": "\/public\/img\/paladinSkills1.jpg",
+		"oAP": "\/public\/img\/classes\/Sorceress.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/img\/leaderboards\/ladder.jpg": {
+		"ft": 16384,
+		"iS": 43805,
+		"oA": 0,
+		"oAP": "\/public\/img\/leaderboards\/ladder.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/public\/img\/paladinSkills2.jpg": {
-		"ft": 16384,
-		"iS": 32619,
-		"oA": 0,
-		"oAP": "\/public\/img\/paladinSkills2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/paladinSkills3.jpg": {
-		"ft": 16384,
-		"iS": 32317,
-		"oA": 0,
-		"oAP": "\/public\/img\/paladinSkills3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/img\/ryu_profile.png": {
+	"\/public\/img\/logo\/logo.png": {
 		"ft": 32768,
-		"iS": 83439,
+		"iS": 10700,
 		"oA": 0,
-		"oAP": "\/public\/img\/ryu_profile.png",
+		"oAP": "\/public\/img\/logo\/logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/public\/img\/Sorceress.gif": {
-		"ft": 4194304,
-		"iS": 89808,
+	"\/public\/img\/skills\/amazonSkills1.jpg": {
+		"ft": 16384,
+		"iS": 35748,
 		"oA": 0,
-		"oAP": "\/public\/img\/Sorceress.gif",
+		"oAP": "\/public\/img\/skills\/amazonSkills1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/public\/img\/sorceressSkills1.jpg": {
+	"\/public\/img\/skills\/amazonSkills2.jpg": {
+		"ft": 16384,
+		"iS": 36120,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/amazonSkills2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/amazonSkills3.jpg": {
+		"ft": 16384,
+		"iS": 35842,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/amazonSkills3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/assassinSkills1.jpg": {
+		"ft": 16384,
+		"iS": 32206,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/assassinSkills1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/assassinSkills2.jpg": {
+		"ft": 16384,
+		"iS": 32338,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/assassinSkills2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/assassinSkills3.jpg": {
+		"ft": 16384,
+		"iS": 32303,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/assassinSkills3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/barbarianSkills1.jpg": {
+		"ft": 16384,
+		"iS": 31982,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/barbarianSkills1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/barbarianSkills2.jpg": {
+		"ft": 16384,
+		"iS": 31701,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/barbarianSkills2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/barbarianSkills3.jpg": {
+		"ft": 16384,
+		"iS": 32179,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/barbarianSkills3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/druidSkills1.jpg": {
+		"ft": 16384,
+		"iS": 77234,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/druidSkills1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/druidSkills2.jpg": {
+		"ft": 16384,
+		"iS": 80276,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/druidSkills2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/druidSkills3.jpg": {
+		"ft": 16384,
+		"iS": 32669,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/druidSkills3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/necromancerSkills1.jpg": {
+		"ft": 16384,
+		"iS": 187659,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/necromancerSkills1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/necromancerSkills2.jpg": {
+		"ft": 16384,
+		"iS": 187927,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/necromancerSkills2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/necromancerSkills3.jpg": {
+		"ft": 16384,
+		"iS": 181952,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/necromancerSkills3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/paladinSkills1.jpg": {
+		"ft": 16384,
+		"iS": 32418,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/paladinSkills1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/paladinSkills2.jpg": {
+		"ft": 16384,
+		"iS": 32619,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/paladinSkills2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/paladinSkills3.jpg": {
+		"ft": 16384,
+		"iS": 32317,
+		"oA": 0,
+		"oAP": "\/public\/img\/skills\/paladinSkills3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/skills\/sorceressSkills1.jpg": {
 		"ft": 16384,
 		"iS": 75366,
 		"oA": 0,
-		"oAP": "\/public\/img\/sorceressSkills1.jpg",
+		"oAP": "\/public\/img\/skills\/sorceressSkills1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/public\/img\/sorceressSkills2.jpg": {
+	"\/public\/img\/skills\/sorceressSkills2.jpg": {
 		"ft": 16384,
 		"iS": 74798,
 		"oA": 0,
-		"oAP": "\/public\/img\/sorceressSkills2.jpg",
+		"oAP": "\/public\/img\/skills\/sorceressSkills2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/public\/img\/sorceressSkills3.jpg": {
+	"\/public\/img\/skills\/sorceressSkills3.jpg": {
 		"ft": 16384,
 		"iS": 75210,
 		"oA": 0,
-		"oAP": "\/public\/img\/sorceressSkills3.jpg",
+		"oAP": "\/public\/img\/skills\/sorceressSkills3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/public\/img\/splash-bg.jpg": {
+	"\/public\/img\/social_media\/discord.png": {
+		"ft": 32768,
+		"iS": 8024,
+		"oA": 0,
+		"oAP": "\/public\/img\/social_media\/discord.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/social_media\/instagram.png": {
+		"ft": 32768,
+		"iS": 1518052,
+		"oA": 0,
+		"oAP": "\/public\/img\/social_media\/instagram.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/social_media\/twitch.png": {
+		"ft": 32768,
+		"iS": 6168,
+		"oA": 0,
+		"oAP": "\/public\/img\/social_media\/twitch.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/social_media\/twitter.png": {
+		"ft": 32768,
+		"iS": 11381,
+		"oA": 0,
+		"oAP": "\/public\/img\/social_media\/twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/social_media\/youtube.png": {
+		"ft": 32768,
+		"iS": 5437,
+		"oA": 0,
+		"oAP": "\/public\/img\/social_media\/youtube.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/splash\/splash-bg.jpg": {
 		"ft": 16384,
 		"iS": 239152,
 		"oA": 0,
-		"oAP": "\/public\/img\/splash-bg.jpg",
+		"oAP": "\/public\/img\/splash\/splash-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/public\/img\/splash-bg.png": {
+	"\/public\/img\/splash\/splash-bg.png": {
 		"ft": 32768,
 		"iS": 688842,
 		"oA": 0,
-		"oAP": "\/public\/img\/splash-bg.png",
+		"oAP": "\/public\/img\/splash\/splash-bg.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/public\/img\/twitch.png": {
-		"ft": 32768,
-		"iS": 6168,
+	"\/public\/img\/twitch\/alarashade_profile.jpeg": {
+		"ft": 16384,
+		"iS": 32969,
 		"oA": 0,
-		"oAP": "\/public\/img\/twitch.png",
+		"oAP": "\/public\/img\/twitch\/alarashade_profile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/twitch\/btneander_profile.png": {
+		"ft": 32768,
+		"iS": 11145,
+		"oA": 0,
+		"oAP": "\/public\/img\/twitch\/btneander_profile.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/public\/img\/twitter.png": {
-		"ft": 32768,
-		"iS": 11381,
+	"\/public\/img\/twitch\/dhono125_profile.jpeg": {
+		"ft": 16384,
+		"iS": 14432,
 		"oA": 0,
-		"oAP": "\/public\/img\/twitter.png",
+		"oAP": "\/public\/img\/twitch\/dhono125_profile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/twitch\/diglio_profile.png": {
+		"ft": 32768,
+		"iS": 21984,
+		"oA": 0,
+		"oAP": "\/public\/img\/twitch\/diglio_profile.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/public\/img\/youtube.png": {
+	"\/public\/img\/twitch\/djwaters_profile.png": {
 		"ft": 32768,
-		"iS": 5437,
+		"iS": 80467,
 		"oA": 0,
-		"oAP": "\/public\/img\/youtube.png",
+		"oAP": "\/public\/img\/twitch\/djwaters_profile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/twitch\/flufflo_profile.png": {
+		"ft": 32768,
+		"iS": 94012,
+		"oA": 0,
+		"oAP": "\/public\/img\/twitch\/flufflo_profile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/twitch\/granfatha_profile.jpg": {
+		"ft": 16384,
+		"iS": 56060,
+		"oA": 0,
+		"oAP": "\/public\/img\/twitch\/granfatha_profile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/twitch\/hytyme_profile.png": {
+		"ft": 32768,
+		"iS": 137251,
+		"oA": 0,
+		"oAP": "\/public\/img\/twitch\/hytyme_profile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/twitch\/leakycougar_profile.jpeg": {
+		"ft": 16384,
+		"iS": 36833,
+		"oA": 0,
+		"oAP": "\/public\/img\/twitch\/leakycougar_profile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/twitch\/lumen_profile.png": {
+		"ft": 32768,
+		"iS": 38852,
+		"oA": 0,
+		"oAP": "\/public\/img\/twitch\/lumen_profile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/twitch\/mrbubbles_profile.png": {
+		"ft": 32768,
+		"iS": 150689,
+		"oA": 0,
+		"oAP": "\/public\/img\/twitch\/mrbubbles_profile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/twitch\/mrllama_profile.png": {
+		"ft": 32768,
+		"iS": 161885,
+		"oA": 0,
+		"oAP": "\/public\/img\/twitch\/mrllama_profile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/twitch\/ryu_profile.png": {
+		"ft": 32768,
+		"iS": 83439,
+		"oA": 0,
+		"oAP": "\/public\/img\/twitch\/ryu_profile.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

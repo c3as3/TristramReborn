@@ -9,6 +9,17 @@ mixin nav-content()
     li: a(href="leaderboards") Leaderboards
     li: a(href="twitch") Twitch Streams
     li: a(href="about") About Us
+    
+mixin mobile-nav-content()
+  ul
+    li: a(href="/") Home
+    li: a(href="news") News
+    li: a(href="classes") Classes & Skills
+    li: a(href="items") Items
+    li: a(href="guides") Guides
+    li: a(href="leaderboards") Leaderboards
+    li: a(href="twitch") Twitch Streams
+    li: a(href="about") About Us    
 
 doctype html
 
@@ -19,7 +30,7 @@ head
   meta(name='keywords' content='diablo, diablo 2, diablo II, tristram reborn, diablo 2 fan site, diablo twitch streams, diablo 2 items, diablo 2 runes')
   meta(name='copyright' content='Tristram Reborn')
   link(rel='stylesheet', href='../css/main.css')
-  title Diablo Site | Diablo II Fan Site
+  title Tristram Reborn | Diablo II Fan Site
 
   // Global site tag (gtag.js) - Google Analytics
   script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-107390185-1')
@@ -37,16 +48,16 @@ body
       +nav-content 
     
     .mobile-nav
+      .logo
       .hamburger
         span
         span
         span
       .mobile-nav-menu  
-        +nav-content  
+        +mobile-nav-content  
         
   section.siteCall  
-    //- .currentStreamersIcon
-    //-   .currentStreamersSidebar
+        
     h2 Welcome to Tristram Reborn, the Diablo 2 Fan Site built by Twitch Streamers for the Community
     br
     h4 Our Goal is to bing the community of Diablo 2 together under a fair, legit, and honest place. We encourage community play, trading, and overall "Fun-ness."
@@ -56,8 +67,31 @@ body
     .totalViewers
     
   .body-wrap      
-    block content      
-
+    block content   
+     
+  .currentStreamersIcon
+    .currentStreamersSidebar
+      h4.online Online
+      h6 Alara Shade
+      .profilePic.alarashade
+      hr
+      h6 BTNeandertha1
+      .profilePic.btneandertha1
+      hr
+      h6 Diglio
+      .profilePic.diglio
+      hr
+      
+      h4.offline Offline
+      h6 MrLlamaSC
+      .profilePic.mrllama
+      hr
+      h6 LeakyCougar
+      .profilePic.leakycougar
+      hr
+      h6 Hytyme
+      .profilePic.hytyme
+        
   footer
     h4 - - - - - - - - - - Tristram Reborn - - - - - - - - - -
     p Copyright @ 2017 - Developed by [Michael Diglio & Cesar Sanchez]

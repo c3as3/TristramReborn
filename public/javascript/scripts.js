@@ -11,9 +11,11 @@ $(document).ready(function(){
     $('.mobile-nav-menu').slideToggle(500);
   });
 
-  // $('.currentStreamersIcon').click(function(){
-  //   $(this).toggleClass('slideIn');
-  // });
+  //Current Streamer Sidebar popout
+  $('.currentStreamersIcon').click(function(){
+    $(this).toggleClass('slideIn');
+    $('.currentStreamersSidebar').toggleClass('sideBarOpacity');
+  });
 
 
 //Make Class Skill Tree expand on click. Original size if clicked again

@@ -6,6 +6,39 @@ section.guides{
     margin: 20px 0;
   }
 
+  .guidesMenu{
+    margin: 10px 0;
+    ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+
+      li{
+        cursor: pointer;
+        margin: 10px 0;
+
+        a{
+          text-decoration: none;
+          color: white;
+          font-size: 22px;
+        }
+        &:hover{
+          a{
+            color: $diabloRed;
+          }
+        }
+      }
+      @media screen and (max-width: 620px){
+        flex-direction: column;
+      }
+    }
+  }
+
   .fhr{
     border-top: 2px solid $diabloRed;
   }
