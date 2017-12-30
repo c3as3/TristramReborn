@@ -35,6 +35,7 @@
     "express-validator": "^4.1.1",
     "https": "^1.0.0",
     "jade": "^1.11.0",
+    "moment": "^2.20.1",
     "mongodb": "^2.2.26",
     "mongoose": "^4.9.10",
     "nodemailer": "^4.1.0",
