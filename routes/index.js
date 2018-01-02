@@ -35,6 +35,6 @@ router.post('/submit', ctrlSubscribe.subscribeSubmitted);
 router.post('/messages', ctrlMessage.messageSubmitted);
 router.post('/articleInjection', ctrlArticle.articleSubmitted);
 router.get('/articleInjection', ctrlArticle.articlesForm);
-router.post('/twitchUsers', ctrltwitchUsers.twitchUsersSubmitted);
-router.get('/twitchUsers', ctrltwitchUsers.twitchUsers);
+//router.post('/twitchUsers', ctrltwitchUsers.twitchUsersSubmitted);
+//router.get('/twitchUsers', ctrltwitchUsers.twitchUsers);
 module.exports = router;
