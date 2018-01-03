@@ -7,9 +7,9 @@ var ctrlSubscribe = require('../MVC/controllers/subscribe.js');
 var ctrlArticle = require('../MVC/controllers/articles.js')
 var ctrlNewsFeed = require('../MVC/controllers/news.js')
 var ctrlHomepage = require('../MVC/controllers/homepage.js');
-var ctrltwitchUsers = require('../MVC/controllers/twitchusers.js')
+//var ctrltwitchUsers = require('../MVC/controllers/twitchusers.js')
 var ctrlTwitchpage = require('../MVC/controllers/twitch.js')
-
+var ctrlItems = require('../MVC/controllers/items.js');
 //ReCaptcha MiddleWare
 recaptcha.init('6LdQHTEUAAAAAEck5dN_0xuNI97DTZw9YKhPYrx2', '6LdQHTEUAAAAAJBSZRxCsHavkmIcFkn8PuXadE0c');
 verify = function (req, res, next){
@@ -26,6 +26,12 @@ router.get('/', ctrlHomepage.homepage);
 router.get('/about', ctrlDiabloPages.about);
 router.get('/classes', ctrlDiabloPages.classes);
 router.get('/guides', ctrlDiabloPages.guides);
+  router.get('/breakpoints', ctrlDiabloPages.breakpoints);
+  router.get('/mapguides', ctrlDiabloPages.mapguides);
+  router.get('/guides#leveling', ctrlDiabloPages.leveling);
+  router.get('/magicfind', ctrlDiabloPages.magicfind);
+  router.get('/classbuilds', ctrlDiabloPages.classbuilds);
+  router.get('/speedrunning', ctrlDiabloPages.speedrunning);
 router.get('/items', ctrlDiabloPages.items);
 router.get('/leaderboards', ctrlDiabloPages.leaderboards);
 router.get('/news', ctrlNewsFeed.news);
@@ -35,6 +41,8 @@ router.post('/submit', ctrlSubscribe.subscribeSubmitted);
 router.post('/messages', ctrlMessage.messageSubmitted);
 router.post('/articleInjection', ctrlArticle.articleSubmitted);
 router.get('/articleInjection', ctrlArticle.articlesForm);
+router.get('/itemUpload', ctrlDiabloPages.itemUpload)
+router.post('/itemUpload', ctrlItems.itemsSubmitted);
 //router.post('/twitchUsers', ctrltwitchUsers.twitchUsersSubmitted);
 //router.get('/twitchUsers', ctrltwitchUsers.twitchUsers);
 module.exports = router;
