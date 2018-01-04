@@ -15,10 +15,6 @@ module.exports.guides = function(req, res, next){
   res.render('guides');
   console.log('Guides Page Loaded')
 };
-module.exports.items = function(req, res, next){
-  res.render('item');
-  console.log('Items Page Loaded')
-};
 module.exports.leaderboards = function(req, res, next){
   res.render('leaderboards');
   console.log('Leaderboards Page Loaded')
@@ -34,25 +30,25 @@ module.exports.itemUpload = function(req, res, err){
 };
 module.exports.breakpoints = function(req, res, err){
   res.render('breakpoints');
-  console.log('Items Upload Page Loaded')
+  console.log('Guides - Breakpoints Loaded')
 };
 module.exports.mapguides = function(req, res, err){
   res.render('mapguides');
-  console.log('Items Upload Page Loaded')
+  console.log('Guides - Maps Loaded')
 };
 module.exports.leveling = function(req, res, err){
   res.render('leveling');
-  console.log('Items Upload Page Loaded')
+  console.log('Guides - Leveling Loaded')
 };
 module.exports.magicfind = function(req, res, err){
   res.render('magicfind');
-  console.log('Items Upload Page Loaded')
+  console.log('Guides - Magic Find  Loaded')
 };
 module.exports.classbuilds = function(req, res, err){
   res.render('classbuilds');
-  console.log('Items Upload Page Loaded')
+  console.log('Guides - Class Builds Loaded')
 };
 module.exports.speedrunning = function(req, res, err){
   res.render('speedrunning');
-  console.log('Items Upload Page Loaded')
+  console.log('Guides - Speedrunning Loaded')
 };

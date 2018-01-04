@@ -5,6 +5,7 @@ var ctrlDiabloPages = require('../MVC/controllers/pages.js');
 var ctrlMessage = require('../MVC/controllers/messages.js');
 var ctrlSubscribe = require('../MVC/controllers/subscribe.js');
 var ctrlArticle = require('../MVC/controllers/articles.js')
+var ctrlItemsUpload = require('../MVC/controllers/itemsUpload.js')
 var ctrlNewsFeed = require('../MVC/controllers/news.js')
 var ctrlHomepage = require('../MVC/controllers/homepage.js');
 //var ctrltwitchUsers = require('../MVC/controllers/twitchusers.js')
@@ -32,7 +33,7 @@ router.get('/guides', ctrlDiabloPages.guides);
   router.get('/magicfind', ctrlDiabloPages.magicfind);
   router.get('/classbuilds', ctrlDiabloPages.classbuilds);
   router.get('/speedrunning', ctrlDiabloPages.speedrunning);
-router.get('/items', ctrlDiabloPages.items);
+router.get('/items', ctrlItems.items);
 router.get('/leaderboards', ctrlDiabloPages.leaderboards);
 router.get('/news', ctrlNewsFeed.news);
 router.get('/messages', ctrlMessage.messages);
@@ -42,7 +43,7 @@ router.post('/messages', ctrlMessage.messageSubmitted);
 router.post('/articleInjection', ctrlArticle.articleSubmitted);
 router.get('/articleInjection', ctrlArticle.articlesForm);
 router.get('/itemUpload', ctrlDiabloPages.itemUpload)
-router.post('/itemUpload', ctrlItems.itemsSubmitted);
+router.post('/itemUpload', ctrlItemsUpload.itemsSubmitted);
 //router.post('/twitchUsers', ctrltwitchUsers.twitchUsersSubmitted);
 //router.get('/twitchUsers', ctrltwitchUsers.twitchUsers);
 module.exports = router;
