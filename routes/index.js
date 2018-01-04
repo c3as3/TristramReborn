@@ -22,27 +22,31 @@ verify = function (req, res, next){
 
 
 //Comment out .homepage controller to start splash and vice-versa to start at homepage(remove homepage from /)
+//Regular Pages
 router.get('/', ctrlHomepage.homepage);
 // router.get('/', ctrlDiabloPages.splash);
+router.get('/guides', ctrlDiabloPages.guides);
+  router.get('/guides/breakpoints', ctrlDiabloPages.breakpoints);
+  router.get('/guides/mapguides', ctrlDiabloPages.mapguides);
+  router.get('/guides/leveling', ctrlDiabloPages.leveling);
+  router.get('/guides/magicfind', ctrlDiabloPages.magicfind);
+  router.get('/guides/classbuilds', ctrlDiabloPages.classbuilds);
+  router.get('/guides/speedrunning', ctrlDiabloPages.speedrunning);
+router.get('/leaderboards', ctrlDiabloPages.leaderboards);
 router.get('/about', ctrlDiabloPages.about);
 router.get('/classes', ctrlDiabloPages.classes);
-router.get('/guides', ctrlDiabloPages.guides);
-  router.get('/breakpoints', ctrlDiabloPages.breakpoints);
-  router.get('/mapguides', ctrlDiabloPages.mapguides);
-  router.get('/guides#leveling', ctrlDiabloPages.leveling);
-  router.get('/magicfind', ctrlDiabloPages.magicfind);
-  router.get('/classbuilds', ctrlDiabloPages.classbuilds);
-  router.get('/speedrunning', ctrlDiabloPages.speedrunning);
-router.get('/items', ctrlItems.items);
-router.get('/leaderboards', ctrlDiabloPages.leaderboards);
-router.get('/news', ctrlNewsFeed.news);
+
+
+//Complex pages with separate controllers
 router.get('/messages', ctrlMessage.messages);
 router.get('/twitch', ctrlTwitchpage.twitch);
 router.post('/submit', ctrlSubscribe.subscribeSubmitted);
 router.post('/messages', ctrlMessage.messageSubmitted);
+router.get('/news', ctrlNewsFeed.news);
 router.post('/articleInjection', ctrlArticle.articleSubmitted);
 router.get('/articleInjection', ctrlArticle.articlesForm);
-router.get('/itemUpload', ctrlDiabloPages.itemUpload)
+router.get('/items', ctrlItems.items);
+router.get('/itemUpload', ctrlItemsUpload.itemForm)
 router.post('/itemUpload', ctrlItemsUpload.itemsSubmitted);
 //router.post('/twitchUsers', ctrltwitchUsers.twitchUsersSubmitted);
 //router.get('/twitchUsers', ctrltwitchUsers.twitchUsers);

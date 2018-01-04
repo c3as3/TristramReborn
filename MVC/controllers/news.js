@@ -12,7 +12,6 @@ var articles = require('../models/articles')
 ///////////////////////////////////////
 */
 module.exports.news = function(req, res, next){
-
 articles.find(function (error, docs){
      res.render('news', {
        articles: docs,

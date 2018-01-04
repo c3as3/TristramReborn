@@ -24,10 +24,6 @@ module.exports.splash = function(req, res, next){
   req.session.errors = null;
   console.log('Splash Page Loaded')
 };
-module.exports.itemUpload = function(req, res, err){
-  res.render('itemUpload');
-  console.log('Items Upload Page Loaded')
-};
 module.exports.breakpoints = function(req, res, err){
   res.render('breakpoints');
   console.log('Guides - Breakpoints Loaded')
