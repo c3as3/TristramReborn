@@ -1,31 +1,20 @@
 require('../../routes/index.js');
 var mongoose = require('mongoose');
 require('../models/db');
-var multer = require('multer')
 
-// var storage	=	multer.diskStorage({
-//   destination: function (req, file, callback) {
-//     callback(null, './uploads');
-//   },
-//   filename: function (req, file, callback) {
-//     callback(null, file.fieldname);
-//   }
-// });
-//
-// var upload = multer({ storage : storage }).array('img');
+var itemsSchema = mongoose.Schema({
+    item: String,
+    type: String,
+    class: String
+});
+
+
+var item = mongoose.model('Items', itemsSchema);
 
 //Controller
 module.exports.itemsSubmitted = function(req,res){
 
-  var itemsSchema = mongoose.Schema({
-      item: String,
-      type: String,
-      class: String,
-      img: String
-  });
 
-
-  var item = mongoose.model('Items', itemsSchema);
 
 
 
@@ -53,7 +42,6 @@ module.exports.itemsSubmitted = function(req,res){
       item: req.body.item,
       type: req.body.type,
       class: req.body.class,
-      img: req.body.img
     }
 console.log('New item Created');
 
