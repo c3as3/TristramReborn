@@ -53,6 +53,26 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/MVC\/controllers\/items.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/MVC\/controllers\/items-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/MVC\/controllers\/itemsUpload.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/MVC\/controllers\/itemsUpload-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/MVC\/controllers\/messages.js": {
 		"ft": 64,
 		"ma": 0,
@@ -133,6 +153,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/MVC\/models\/items.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/MVC\/models\/items-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/MVC\/models\/subscription.js": {
 		"ft": 64,
 		"ma": 0,
@@ -176,8 +206,8 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/MVC\/views\/breakpoints.html",
-		"oF": 0,
+		"oAP": "\/public\/html\/breakpoints.html",
+		"oF": 2,
 		"oS": 0
 		},
 	"\/MVC\/views\/classbuilds.jade": {
@@ -185,8 +215,8 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/MVC\/views\/classbuilds.html",
-		"oF": 0,
+		"oAP": "\/public\/html\/classbuilds.html",
+		"oF": 2,
 		"oS": 0
 		},
 	"\/MVC\/views\/classes.jade": {
@@ -225,6 +255,15 @@
 		"oF": 2,
 		"oS": 0
 		},
+	"\/MVC\/views\/itemUpload.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/MVC\/views\/itemUpload.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/MVC\/views\/layout.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -248,8 +287,8 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/MVC\/views\/leveling.html",
-		"oF": 0,
+		"oAP": "\/public\/html\/leveling.html",
+		"oF": 2,
 		"oS": 0
 		},
 	"\/MVC\/views\/magicfind.jade": {
@@ -257,8 +296,8 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/MVC\/views\/magicfind.html",
-		"oF": 0,
+		"oAP": "\/public\/html\/magicfind.html",
+		"oF": 2,
 		"oS": 0
 		},
 	"\/MVC\/views\/mapguides.jade": {
@@ -266,8 +305,8 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/MVC\/views\/mapguides.html",
-		"oF": 0,
+		"oAP": "\/public\/html\/mapguides.html",
+		"oF": 2,
 		"oS": 0
 		},
 	"\/MVC\/views\/messages.jade": {
@@ -293,8 +332,8 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/MVC\/views\/speedrunning.html",
-		"oF": 0,
+		"oAP": "\/public\/html\/speedrunning.html",
+		"oF": 2,
 		"oS": 0
 		},
 	"\/MVC\/views\/splash.jade": {
@@ -329,6 +368,14 @@
 		"oA": 2,
 		"oAP": "\/build\/node_modules",
 		"oF": 0
+		},
+	"\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/package.json": {
 		"ft": 524288,
@@ -539,6 +586,83 @@
 		"oAP": "\/public\/img\/classes\/Sorceress.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/public\/img\/items\/archon plate.png": {
+		"ft": 32768,
+		"iS": 6722,
+		"oA": 0,
+		"oAP": "\/public\/img\/items\/archon plate.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/items\/colossus voulge.png": {
+		"ft": 32768,
+		"iS": 3249,
+		"oA": 0,
+		"oAP": "\/public\/img\/items\/colossus voulge.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/items\/crown of ages.png": {
+		"ft": 32768,
+		"iS": 4372,
+		"oA": 0,
+		"oAP": "\/public\/img\/items\/crown of ages.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/items\/Defensive Shard.png": {
+		"ft": 32768,
+		"iS": 31044,
+		"oA": 0,
+		"oAP": "\/public\/img\/items\/Defensive Shard.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/items\/flail.png": {
+		"ft": 32768,
+		"iS": 4460,
+		"oA": 0,
+		"oAP": "\/public\/img\/items\/flail.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/items\/Gauntlet max.png": {
+		"ft": 32768,
+		"iS": 5807,
+		"oA": 0,
+		"oAP": "\/public\/img\/items\/Gauntlet max.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/items\/phase blade.png": {
+		"ft": 32768,
+		"iS": 3571,
+		"oA": 0,
+		"oAP": "\/public\/img\/items\/phase blade.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/leaderboards\/ladder.jpg": {
 		"ft": 16384,
