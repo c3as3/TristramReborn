@@ -24,27 +24,28 @@ module.exports.splash = function(req, res, next){
   req.session.errors = null;
   console.log('Splash Page Loaded')
 };
-module.exports.breakpoints = function(req, res, err){
+module.exports.breakpoints = function(req, res, next){
   res.render('breakpoints');
   console.log('Guides - Breakpoints Loaded')
 };
-module.exports.mapguides = function(req, res, err){
+module.exports.mapguides = function(req, res, next){
   res.render('mapguides');
   console.log('Guides - Maps Loaded')
 };
-module.exports.leveling = function(req, res, err){
+module.exports.leveling = function(req, res, next){
   res.render('leveling');
   console.log('Guides - Leveling Loaded')
+
 };
-module.exports.magicfind = function(req, res, err){
+module.exports.magicfind = function(req, res, next){
   res.render('magicfind');
   console.log('Guides - Magic Find  Loaded')
 };
-module.exports.classbuilds = function(req, res, err){
+module.exports.classbuilds = function(req, res, next){
   res.render('classbuilds');
   console.log('Guides - Class Builds Loaded')
 };
-module.exports.speedrunning = function(req, res, err){
+module.exports.speedrunning = function(req, res, next){
   res.render('speedrunning');
   console.log('Guides - Speedrunning Loaded')
 };
