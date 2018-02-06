@@ -65,25 +65,25 @@ section.classes{
       }
     }
     .amazon{
-      background-image: url('../img/classes/Amazon.gif');
+      background-image: url('../img/classes/amazon/Amazon.gif');
     }
     .assassin{
-      background-image: url('../img/classes/Assassin.gif');
+      background-image: url('../img/classes/assassin/Assassin.gif');
     }
     .barbarian{
-      background-image: url('../img/classes/Barbarian.gif');
+      background-image: url('../img/classes/barbarian/Barbarian.gif');
     }
     .druid{
-      background-image: url('../img/classes/Druid.gif');
+      background-image: url('../img/classes/druid/Druid.gif');
     }
     .necromancer{
-      background-image: url('../img/classes/Necromancer.gif');
+      background-image: url('../img/classes/necromancer/Necromancer.gif');
     }
     .paladin{
-      background-image: url('../img/classes/Paladin.gif');
+      background-image: url('../img/classes/paladin/Paladin.gif');
     }
     .sorceress{
-      background-image: url('../img/classes/Sorceress.gif');
+      background-image: url('../img/classes/sorceress/Sorceress.gif');
     }
     @media screen and (max-width: 620px){
       grid-template-columns: 1fr;

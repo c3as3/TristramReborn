@@ -739,19 +739,19 @@ section.classes {
         section.classes .classGroup .classInfo {
           grid-column: 1; } }
     section.classes .classGroup .amazon {
-      background-image: url("../img/classes/Amazon.gif"); }
+      background-image: url("../img/classes/amazon/Amazon.gif"); }
     section.classes .classGroup .assassin {
-      background-image: url("../img/classes/Assassin.gif"); }
+      background-image: url("../img/classes/assassin/Assassin.gif"); }
     section.classes .classGroup .barbarian {
-      background-image: url("../img/classes/Barbarian.gif"); }
+      background-image: url("../img/classes/barbarian/Barbarian.gif"); }
     section.classes .classGroup .druid {
-      background-image: url("../img/classes/Druid.gif"); }
+      background-image: url("../img/classes/druid/Druid.gif"); }
     section.classes .classGroup .necromancer {
-      background-image: url("../img/classes/Necromancer.gif"); }
+      background-image: url("../img/classes/necromancer/Necromancer.gif"); }
     section.classes .classGroup .paladin {
-      background-image: url("../img/classes/Paladin.gif"); }
+      background-image: url("../img/classes/paladin/Paladin.gif"); }
     section.classes .classGroup .sorceress {
-      background-image: url("../img/classes/Sorceress.gif"); }
+      background-image: url("../img/classes/sorceress/Sorceress.gif"); }
     @media screen and (max-width: 620px) {
       section.classes .classGroup {
         grid-template-columns: 1fr;
